@@ -4,10 +4,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e53bf7a0b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/about.css" />
     <title>About</title>
   </head>
   <body>
-    <h3>about</h3>
-    <a href="../html/home.html">home</a>
+    <div class="ham-menu">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="top-of-header">
+      <div class="items">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <a href="#">English</a>
+        <a href="#">My Page</a>
+        <a href="#">Logout</a>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="logo">
+        <a href="home.html"
+          ><img src="../assets/logo.png" alt="logo" class="logo-img"
+        /></a>
+      </div>
+      <div class="nav">
+        <ul>
+          <li class="active"><a href="home.html">Home</a></li>
+          <li><a href="#">Program</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><a href="#">News</a></li>
+          <li class="active">
+            <a href="#" class="cc-campaign-btn">CC Campaign</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <nav class="mobile-menu">
+      <ul class="menu-ul">
+        <div class="close">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <li class="active item"><a href="home.html">Home</a></li>
+        <li class="item"><a href="#">Program</a></li>
+        <li class="item"><a href="#">Join</a></li>
+        <li class="item"><a href="#">Sponsor</a></li>
+        <li class="item"><a href="#">News</a></li>
+        <li class="item"><a href="#">CC Campaign</a></li>
+      </ul>
+    </nav>
+
+    <div class="back-to-top">
+      <a href="#"><i class="fa-solid fa-chevron-up"></i></a>
+    </div>
+
+    <script src="../js/about.js"></script>
   </body>
 </html>
