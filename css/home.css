@@ -100,6 +100,49 @@ a {
   bottom: 2rem;
 }
 
+.main {
+  width: 100%;
+
+  background-image: url('../assets/background.png');
+  background-size: cover;
+  background-position: center;
+  padding: 8rem 2rem;
+}
+
+.main h1 {
+  font-size: 2.5rem;
+  color: var(--color-secondary);
+  margin-bottom: 1rem;
+}
+
+.main h3 {
+  font-size: 3rem;
+  color: var(--color-secondary);
+  margin-bottom: 2rem;
+}
+
+.main .desc {
+  max-width: 35rem;
+  border: 2px solid #fff;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.ham-menu {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  font-size: 2rem;
+}
+
+.date-and-venue p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  opacity: 0.4;
+}
+
 @media screen and (max-width: 1220px) {
   .header {
     padding: 0 6rem;
@@ -131,18 +174,24 @@ a {
     cursor: pointer;
   }
 
+  .main {
+    position: absolute;
+    top: 0;
+  }
+
   .mobile-menu {
     display: none;
   }
 
   .mobile-menu ul {
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     padding: 3rem;
     background-color: var(--color-primary);
+    z-index: 1000;
   }
 
   .mobile-menu li {
@@ -165,5 +214,11 @@ a {
 
   .open {
     display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    margin-top: 7rem;
   }
 }
