@@ -7,7 +7,7 @@ const guestsDiv = document.querySelector('.featured-guests');
 const featuredGuests = [
   {
     name: 'Tony Abou-Ganim',
-    image: '../assets/tony.jpeg',
+    image: 'assets/tony.jpeg',
     desc1:
       'Tony Abou-Ganim is a veteran bartender with over 30 years of experience.',
     desc2:
@@ -16,7 +16,7 @@ const featuredGuests = [
 
   {
     name: 'Julie Reiner',
-    image: '../assets/juliet.jpg',
+    image: 'assets/juliet.jpg',
     desc1:
       'Julie Reiner is a New York City-based bartender, author, and educator.',
     desc2:
@@ -25,7 +25,7 @@ const featuredGuests = [
 
   {
     name: 'Charles Joly',
-    image: '../assets/charles.jpg',
+    image: 'assets/charles.jpg',
     desc1: 'Charles Joly is a New York City-based bartender and author.',
     desc2:
       'He is the co-owner of Clover Club, a cocktail bar in Brooklyn, New York.',
@@ -33,7 +33,7 @@ const featuredGuests = [
 
   {
     name: 'Alex Kratena',
-    image: '../assets/alex.jpg',
+    image: 'assets/alex.jpg',
     desc1: 'Alex Kratena is a London-based bartender and author.',
     desc2:
       'He is the co-owner of White Lyan, a cocktail bar in London, England.',
