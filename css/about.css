@@ -17,6 +17,7 @@ ul {
   display: flex;
   gap: 3rem;
 }
+
 a {
   text-decoration: none;
 }
@@ -164,14 +165,14 @@ a {
   margin: 1rem 0;
 }
 
+.para {
+  margin-bottom: 2rem;
+}
+
 .about p,
 .past-events .para {
   text-align: center;
   max-width: 900px;
-}
-
-.para {
-  margin-bottom: 2rem;
 }
 
 .about {
@@ -209,13 +210,13 @@ a {
   gap: 1rem;
 }
 
+.cards {
+  flex-wrap: wrap;
+}
+
 .past-events .cards {
   display: flex;
   gap: 3rem;
-}
-
-.cards {
-  flex-wrap: wrap;
 }
 
 .past-events .cards .card {
@@ -256,6 +257,7 @@ a {
   .main {
     top: 0;
   }
+
   .top-of-header,
   .header {
     display: none;
