@@ -277,7 +277,7 @@ a {
 .partners h3 {
   color: var(--color-tertiary);
   margin: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   font-size: 2rem;
   border-bottom: 2px solid #ec5242;
 }
