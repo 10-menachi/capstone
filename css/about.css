@@ -100,6 +100,43 @@ a {
   bottom: 2rem;
 }
 
+.main {
+  background-image: url('../assets/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem;
+  gap: 3rem;
+}
+
+.main h1 {
+  font-size: 2.5rem;
+  color: var(--color-secondary);
+  margin-bottom: 1rem;
+}
+
+.main .long-desc {
+  background-color: #fff;
+  padding: 2rem;
+  max-width: 900px;
+}
+
+.main a {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contact-info {
+  text-align: center;
+}
+
 @media screen and (max-width: 1220px) {
   .header {
     padding: 0 6rem;
@@ -165,5 +202,11 @@ a {
 
   .open {
     display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    margin-top: 7rem;
   }
 }
