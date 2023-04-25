@@ -137,6 +137,78 @@ a {
   text-align: center;
 }
 
+.about,
+.past-events {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  gap: 2rem;
+}
+
+.about img {
+  width: 30%;
+  object-fit: contain;
+}
+
+.about h2,
+.past-events h3 {
+  font-size: 2rem;
+}
+
+.small-line {
+  width: 5rem;
+  height: 0.2rem;
+  background-color: var(--color-secondary);
+  margin: 1rem 0;
+}
+
+.about p,
+.past-events .para {
+  text-align: center;
+  max-width: 900px;
+}
+
+.para {
+  margin-bottom: 2rem;
+}
+
+.about {
+  border-bottom: 2px solid var(--color-tertiary);
+}
+
+.footer {
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+}
+
+.footer .footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: var(--color-tertiary);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
 @media screen and (max-width: 1220px) {
   .header {
     padding: 0 6rem;
@@ -156,6 +228,9 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  .main {
+    top: 0;
+  }
   .top-of-header,
   .header {
     display: none;
