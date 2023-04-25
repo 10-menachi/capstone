@@ -18,6 +18,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 Video Presentation](#video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -74,6 +75,12 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://10-menachi.github.io/capstone/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Video Presentation <a name="video"></a>
+
+- [Video Presentation Link](https://www.loom.com/share/e3cc600946a94881998a6375f2aa9ab6)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,7 +194,5 @@ Check out her portfolio by following the link below:
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
