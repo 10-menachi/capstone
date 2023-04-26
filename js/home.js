@@ -67,7 +67,7 @@ for (let i = 0; i < featuredGuests.length; i += 1) {
     <div class="guest">
       <div class="guest-img">
         <img src="${featuredGuests[i].image}" alt="" />
-        <img src="../assets/checked-img.png" class="check" alt="" />
+        <img src="assets/checked-img.png" class="check" alt="" />
       </div>
       <div class="guest-info">
         <h3>${featuredGuests[i].name}</h3>
