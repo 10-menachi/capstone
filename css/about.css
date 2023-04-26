@@ -218,12 +218,13 @@ a {
 }
 
 .footer {
-  background-color: var(--color-tertiary);
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 4rem;
+  gap: 2rem;
 }
 
 .footer-links a {
