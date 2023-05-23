@@ -67,6 +67,7 @@
 - **Responsive Home Page**
 - **Responsive About Page**
 - **Dynamically generated Featured Guests section**
+- **Cute looking footer**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
